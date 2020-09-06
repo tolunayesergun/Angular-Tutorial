@@ -26,6 +26,7 @@ export class ProductComponent implements OnInit {
 
     this.acitvatedRoute.params.subscribe(params => {
       this.productService.getProducts(params["categoryId"]).subscribe(data => this.products = data);
+      
     });
   }
 

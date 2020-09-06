@@ -9,7 +9,7 @@ const routes: Routes = [
   {path:'product-add-forms',component:ProductAddFormsComponent},
   {path:'product-add-reactive-forms',component:ProductAddReactiveFormsComponent},
   {path:'products/category/:categoryId',component:ProductComponent },
-  {path:'',redirectTo:'products',pathMatch:'full'}
+  {path:'',redirectTo:'products/category/0',pathMatch:'full'}
 ];
 
 @NgModule({

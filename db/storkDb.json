@@ -6,7 +6,7 @@
       "price": 2500,
       "categoryId": 1,
       "desc": "Apple iPhone 5",
-      "imgUrl": "https://picsum.photos/250/350"
+      "imgUrl": "https://ikincielegel.com/pub/media/catalog/product/cache/f7b99105c107a77b3f6f3831a28af7f6/i/p/iphone5_1_2_1_1_2_2_3.jpg"
     },
     {
       "id": 2,
@@ -14,10 +14,10 @@
       "price": 2500,
       "categoryId": 2,
       "desc": "Asus Zenfone 2",
-      "imgUrl": "https://picsum.photos/250/350"
+      "imgUrl": "https://cdn.kilifmarketim.com/image/medium/microsonic-asus-zenfone-2-5-5-clear-soft-seffaf-kilif-626-626.jpg"
     },
     {
-      "categoryId": "category.id",
+      "categoryId": 1,
       "name": "Iphone 8",
       "desc": "Apple Iphone 8",
       "imgUrl": "https://cdn.akakce.com/apple/iphone-8-128-gb-z.jpg",
@@ -25,7 +25,7 @@
       "id": 3
     },
     {
-      "categoryId": "category.id",
+      "categoryId": 2,
       "imgUrl": "https://cdn.akakce.com/asus/asus-zenfone-max-pro-zb602kl-64-gb-gumus-z.jpg",
       "name": "Asus Zenfone Max Pro",
       "desc": " Akakçe Asus Zenfone Max Pro ZB602KL 64 GB Gümüş",
@@ -37,8 +37,16 @@
       "desc": "Apple iPhone X",
       "name": "IPhone X",
       "price": "8000",
-      "categoryId": "category.id",
+      "categoryId": 1,
       "id": 5
+    },
+    {
+      "imgUrl": "https://cdn.dsmcdn.com/assets/product/media/images/20191017/19/437470/57616594/1/1_org.jpg",
+      "desc": "Apple iPhone 11 Pro Max 64GB Gece Yeşili ",
+      "name": "iPhone 11 ",
+      "price": "5550",
+      "categoryId": "1",
+      "id": 6
     }
   ],
   "categories": [
