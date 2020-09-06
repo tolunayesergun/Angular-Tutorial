@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 5",
+      "price": 2500,
+      "categoryId": 1,
+      "desc": "Apple iPhone 5",
+      "imgUrl": "https://picsum.photos/250/350"
+    },
+    {
+      "id": 2,
+      "name": "Zenfone 2",
+      "price": 2500,
+      "categoryId": 2,
+      "desc": "Asus Zenfone 2",
+      "imgUrl": "https://picsum.photos/250/350"
+    },
+    {
+      "categoryId": "category.id",
+      "name": "Iphone 8",
+      "desc": "Apple Iphone 8",
+      "imgUrl": "https://cdn.akakce.com/apple/iphone-8-128-gb-z.jpg",
+      "price": "4500",
+      "id": 3
+    },
+    {
+      "categoryId": "category.id",
+      "imgUrl": "https://cdn.akakce.com/asus/asus-zenfone-max-pro-zb602kl-64-gb-gumus-z.jpg",
+      "name": "Asus Zenfone Max Pro",
+      "desc": " Akakçe Asus Zenfone Max Pro ZB602KL 64 GB Gümüş",
+      "price": "3500",
+      "id": 4
+    },
+    {
+      "imgUrl": "https://img.gkbcdn.com/s3/p/2019-11-22/apple-iphone-x-64gb-gray--used--20191122085301167.jpg",
+      "desc": "Apple iPhone X",
+      "name": "IPhone X",
+      "price": "8000",
+      "categoryId": "category.id",
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 2,
+      "name": "Asus"
+    }
+  ]
+}

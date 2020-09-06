@@ -1,0 +1,12 @@
+.productbox{
+    padding:15px;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 350px;
+    object-fit: scale-down;
+    align-self: center;
+
+}

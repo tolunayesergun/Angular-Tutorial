@@ -1,0 +1,6 @@
+ng new <ProjectName>  Yeni bir angular projesi oluştururken kullanılır
+ng serve --open   --> projenizi ayağa kaldırır ve  tarayıcıda açar
+
+ng generate component <ComponnetName>   ---> Projeniz için otomatik olarak component oluşturur
+ng g pipe productFilter    --> custom pipe oluşturur
+ng g service alertify      --> service oluşturur
