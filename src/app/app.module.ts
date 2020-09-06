@@ -10,8 +10,11 @@ import { CategoryComponent } from './category/category.component';
 import { ProductFilterPipe } from './product/product-filter.pipe';
 import { from } from 'rxjs';
 import { AlertifyService } from './services/alertify.service';
+import { AccountService } from './services/account.service';
 import { ProductAddFormsComponent } from './product/product-add-forms/product-add-forms.component';
 import { ProductAddReactiveFormsComponent } from './product/product-add-reactive-forms/product-add-reactive-forms.component';
+import { LoginComponent } from './login/login.component';
+import { LoginGuard } from './login/login.guard';
 
 
 @NgModule({
@@ -23,6 +26,7 @@ import { ProductAddReactiveFormsComponent } from './product/product-add-reactive
     ProductFilterPipe,
     ProductAddFormsComponent,
     ProductAddReactiveFormsComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +35,7 @@ import { ProductAddReactiveFormsComponent } from './product/product-add-reactive
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [AlertifyService],
+  providers: [AlertifyService,AccountService,LoginGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

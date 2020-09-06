@@ -47,6 +47,14 @@
       "price": "5550",
       "categoryId": "1",
       "id": 6
+    },
+    {
+      "name": "Asus ZenFone 6",
+      "desc": "Asus ZenFone 6 ZS630KL",
+      "imgUrl": "https://manual-user-guide.com/images/phones/asus_zenfone_6_zs630kl.png",
+      "price": "3000",
+      "categoryId": "2",
+      "id": 7
     }
   ],
   "categories": [

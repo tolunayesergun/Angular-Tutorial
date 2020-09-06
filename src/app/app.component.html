@@ -8,7 +8,8 @@
      
         <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
-                <a class="nav-link" href="#">Sign out</a>
+                <a *ngIf="!isLoggedIn()" class="nav-link active"   routerLink="/login">Giriş Yap</a>
+                <a *ngIf="isLoggedIn()" class="nav-link active" (click)="logOut()">Oturumu Kapat</a>
             </li>
         </ul>
     </nav>
