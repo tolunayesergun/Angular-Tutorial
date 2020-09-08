@@ -5,10 +5,10 @@
             data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-     
+
         <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
-                <a *ngIf="!isLoggedIn()" class="nav-link active"   routerLink="/login">Giriş Yap</a>
+                <a *ngIf="!isLoggedIn()" class="nav-link active" routerLink="/login">Giriş Yap</a>
                 <a *ngIf="isLoggedIn()" class="nav-link active" (click)="logOut()">Oturumu Kapat</a>
             </li>
         </ul>
@@ -20,7 +20,7 @@
                 <div class="sidebar-sticky pt-3">
                     <ul class="nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active"   routerLink="/products/category/0">
+                            <a class="nav-link active" routerLink="/products/category/0">
                                 <span data-feather="home"></span>
                                 Mağaza <span class="sr-only">(current)</span>
                             </a>
@@ -94,10 +94,10 @@
             </nav>
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
-        
-              
+
+
                 <router-outlet></router-outlet>
-                
+
             </main>
         </div>
     </div>
